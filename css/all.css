@@ -1,0 +1,182 @@
+#table {
+  margin: auto;
+  height: 800px;
+  border: 3px dotted white;
+  border-radius: 15px;
+  background: #408000;
+}
+#table .messages {
+  text-align: center;
+  padding: .2rem;
+  color: #d9534f;
+  margin-top: 1rem;
+  display: inline-block;
+}
+#table .messages p {
+  border: 1px solid #d9534f;
+  background-color: rgba(0, 0, 0, 0.4);
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  padding: 1rem;
+}
+#table .game_users {
+  border: 1px solid red;
+}
+header .user-form {
+  display: block;
+}
+header .user-form .navbar-form {
+  margin: 0;
+}
+header .user-form .navbar-form form {
+  display: inline-block;
+  margin: 0 auto;
+}
+header .navbar-header {
+  padding: 0;
+  overflow: auto;
+}
+header .navbar-form {
+  margin: 0;
+}
+header .navbar-form form {
+  display: inline-block;
+  margin: 0 auto;
+}
+header .navbar-header {
+  padding: 0;
+  overflow: auto;
+}
+header .count-users {
+  display: inline-block;
+  margin: 0;
+  margin-left: 2rem;
+}
+header .deal-cards {
+  display: inline-block;
+}
+.player {
+  margin: 25px auto;
+  width: 300px;
+  height: 150px;
+}
+.player3 {
+  margin-top: 300px;
+  margin-left: -100px;
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari */
+  transform: rotate(90deg);
+}
+.player4 {
+  margin-top: 150px;
+  -ms-transform: rotate(270deg);
+  /* IE 9 */
+  -webkit-transform: rotate(270deg);
+  /* Safari */
+  transform: rotate(270deg);
+}
+#cardBox {
+  margin: 10px auto;
+  width: 160px;
+}
+#deck {
+  background: url(../cards/ace_of_diamonds.png) no-repeat;
+  background-size: contain;
+  width: 75px;
+  height: 109px;
+  float: left;
+}
+#playedCard {
+  background: url(../cards/king_of_hearts.png) no-repeat;
+  background-size: contain;
+  float: right;
+  width: 75px;
+  height: 109px;
+}
+#messageBox {
+  margin: 200px auto 10px auto;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+}
+.c {
+  background: url(../cards/3_of_clubs.png) no-repeat;
+  background-size: contain;
+  width: 75px;
+  height: 109px;
+  margin-left: -60px;
+  float: left;
+}
+.hand {
+  width: 200px;
+  height: 140px;
+  margin-left: 50px;
+}
+/* ==========================================================================
+   CARDS ON TABLE
+   ========================================================================== */
+.middle-row {
+  position: relative;
+}
+#wrap {
+  position: relative;
+}
+#wrap .user-cards {
+  display: inline-block;
+}
+#wrap h4 span {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #d9534f;
+}
+#wrap .game-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 10rem;
+}
+#wrap .cards_on_table {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+}
+#wrap .cards_on_table img {
+  width: 10%;
+  height: auto;
+  position: absolute;
+}
+#wrap .user-cards {
+  display: inline-block;
+  float: left;
+}
+#wrap .user-cards img {
+  width: 15%;
+  height: auto;
+  padding: 0;
+  margin: 0 -2rem 0 0;
+}
+#wrap .user-cards h4 {
+  background-color: #ec971f;
+  padding: .5rem;
+  max-width: 20rem;
+  text-align: center;
+  color: #ffffff;
+}
+#wrap .user-cards .active-user {
+  cursor: pointer;
+  overflow: auto;
+}
+.cards-on-table-users {
+  position: relative;
+  margin: 0 auto;
+  overflow: auto;
+}
+.cards-on-table-users .card-pos {
+  display: table-cell;
+}
+.cards-on-table-users .card-pos img {
+  width: 80%;
+  height: auto;
+}
